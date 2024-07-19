@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif; /* Set font-family to Times New Roman */
+}
+
+.container .dax {
+  text-align: center;
+}

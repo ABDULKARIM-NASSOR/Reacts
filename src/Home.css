@@ -1,0 +1,72 @@
+body {
+  /* background-image: url('components/picture2.jpg'); */ /* Remove or comment out this line */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0; /* Ensure no default margin */
+  font-family: 'Times New Roman', Times, serif; /* Set font-family for the entire body */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum height of the viewport */
+}
+
+.center-content {
+  text-align: center;
+  max-width: 600px; /* Adjust maximum width as needed */
+  margin: auto; /* Center align content horizontally */
+  padding: 20px; /* Add padding to center content */
+  flex: 1; /* Grow to fill remaining space */
+}
+
+.center-content h1 {
+  font-size: 2.5rem; /* Adjust heading font size */
+  margin-bottom: 20px;
+}
+
+.center-content p {
+  font-size: 1.2rem; /* Adjust paragraph font size */
+  line-height: 1.6; /* Adjust line height for readability */
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: auto; /* Pushes the footer to the bottom */
+  padding: 20px 0; /* Add padding to the navigation */
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 10px; /* Adjust spacing between items */
+}
+
+.navigation li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.navigation li a {
+  display: block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.navigation li a:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f8f9fa; /* Example background color */
+}

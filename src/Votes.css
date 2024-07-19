@@ -1,0 +1,130 @@
+/* Container styling */
+.votes-container {
+  max-width: 800px;
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 2px; /* Reduced padding */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the children elements horizontally */
+}
+
+/* Form styling */
+.votes-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Info section styling */
+.info-section {
+  margin-bottom: 20px;
+}
+
+.info-section h3 {
+  margin-top: 0;
+}
+
+.info-section label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.info-section input[type="text"],
+.info-section input[type="email"] {
+  width: 100%;
+  padding: 8px; /* Reduced padding */
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+}
+
+.info-section input[type="text"]::placeholder,
+.info-section input[type="email"]::placeholder {
+  color: #888;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+  padding: 2px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Candidates section styling */
+.candidates-section {
+  margin-top: 20px;
+}
+
+.candidate-group {
+  margin-bottom: 20px;
+}
+
+.candidate-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.candidate-image {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.candidate1 {
+  background-image: url('./assets/Candidate1.jpg');
+}
+
+.candidate2 {
+  background-image: url('./assets/Candidate2.jpg');
+}
+
+.candidate3 {
+  background-image: url('./assets/Candidate3.jpg');
+}
+
+.candidate4 {
+  background-image: url('./assets/Candidate4.jpg');
+}
+
+/* Gender radio buttons styling */
+.info-section label > label {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.info-section label > label input {
+  margin-right: 5px;
+}
+
+/* Button styling */
+button.small-button {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto; /* Centers the button horizontally */
+}
+
+button.small-button:hover {
+  background-color: #0056b3;
+}

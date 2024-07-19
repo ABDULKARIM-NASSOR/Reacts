@@ -1,0 +1,51 @@
+/* Help.css */
+body{
+/*background-image: url('components/picture2.jpg');*/
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin: 0; /* Ensure no default margin */
+font-family: 'Times New Roman', Times, serif; /* Set font-family for the entire body */}
+
+.Help-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .faq-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .faq-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .faq-item h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .faq-item p {
+    margin: 5px 0;
+  }
+  
